@@ -1,7 +1,6 @@
 var envars = {
   'SPLENDOR_ROOT': {
-    required: true,
-    default: '/Users/WalkerM/dev/tarumi/splendor'
+    required: true
   },
   'SPLENDOR_DEBUG': {
     required: false,

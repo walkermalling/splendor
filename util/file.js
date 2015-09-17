@@ -1,6 +1,6 @@
 var fs = require('fs');
-var envars = require('../config').envars;
-var rootDir = process.env.SPLENDOR_ROOT || envars.SPLENDOR_ROOT.default;
+// var envars = require('../config').envars;
+var rootDir = process.env.SPLENDOR_ROOT || process.cwd();
 
 module.exports.read = function (relativePath, options) {
   var opt = !!options ? options : {};
